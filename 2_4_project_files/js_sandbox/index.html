@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript Sandbox: Section 2</title>
+</head>
+<body>
+  <h1>JavaScript Sandbox: Section 2</h1>
+  <h2>2 Types of Data Types: Primitve and Reference Types</h2>
+  <div id="type-1">
+    <h3>Primitive Type</h3>
+    <p>Primitive types are information stored directly in the location that the variable accessess. This info is stored on the stack. And when you accress Primitive data, you access it by it's value.</p>
+    <ul>
+      <li>String: Sequence of characters, letters, numbers, and symbols.</li>
+      <li>Number: Integers, decimals, floats in JavaScript</li>
+      <li>Boolean: Means True and False</li>
+      <li>Null: Intintional empty value</li>
+      <li>Undefined: Variable that has been assigned a value. All variables are undefined as default. You will get an error if you don't define a constant.</li>
+      <li>Symbol: From es6
+        <code>const sym = Symbol();</code>
+      </li>
+    </ul>
+  </div>
+  <div id="type-2">
+    <h3>Reference Type</h3>
+    <p>Reference types are objects that are accessed by REFERENCE, not by an actual value. Data is not actually stored in the variable, it's stored on the "heap." Heap is dynamically allicated memory. It's a pointer to a location in the memory.</p>
+    <ul>
+      <li>Array</li>
+      <li>Object Literal</li>
+      <li>Functions</li>
+      <li>Dates</li>
+      <li>Functions</li>
+      <li>Anything that you can store</li>
+    </ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

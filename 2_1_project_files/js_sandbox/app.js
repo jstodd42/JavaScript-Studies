@@ -59,6 +59,7 @@
 
 
 //Const - stands for "constant" and lets people who see your code know that this valu should not be reassigned.
+//Const can mutate if it's an array or an object, but it cannot be reassigned as a new primative value.
 
 //const name = 'Grace';
 //console.log(name);
